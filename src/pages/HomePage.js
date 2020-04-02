@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Helmet from "react-helmet";
 import { About } from "../components/About";
 import { FeaturedProject } from "../components/FeaturedProject";
 import { Projects } from "../components/Projects";
@@ -8,6 +9,9 @@ import { Footer } from "../components/Footer";
 export const HomePage = ({ projectCards }) => {
   return (
     <>
+      <Helmet>
+        <title>Welcome to my portfolio page</title>
+      </Helmet>
       <header className="container-fluid">
         <div className="row header justify-content-center align-items-center">
           <div className="col-12 mx-auto text-center">

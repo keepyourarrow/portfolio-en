@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Helmet from "react-helmet";
 import sushiBar from "../video/animated-sushi-bar.mp4";
 import oneRoom from "../video/oneroom.mp4";
 import restaraunt from "../video/restaraunt.mp4";
@@ -66,6 +67,9 @@ export const SingleProject = (props) => {
 
   return (
     <div>
+      <Helmet>
+        <title>Please enjoy my {project.name} project!</title>
+      </Helmet>
       <DisplaySingleProject project={project} />
     </div>
   );
