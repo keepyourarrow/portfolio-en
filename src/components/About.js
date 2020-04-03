@@ -22,10 +22,10 @@ export const About = () => {
               learn and more and more every day and eventually gotten to build
               new projects. I'm still nowhere near as good as I want to be, but
               I realize that you never know it all, you can always learn
-              something new, you can always get better, every time you go to be,
-              you'd think, "I've gotten better, I'm improving..." and that is
-              possibly one of the main reasons why the whole coding appeals to
-              me. That and also the level of complexity and challenge and
+              something new, you can always get better, every time you go to
+              bed, you'd think, "I've gotten better, I'm improving..." and that
+              is possibly one of the main reasons why the whole coding appeals
+              to me. That and also the level of complexity and challenge and
               competition it provides. I feel like I've found something that
               fits me.
             </p>
